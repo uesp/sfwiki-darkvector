@@ -1,0 +1,63 @@
+{
+	"name": "SFWikiDarkVector",
+	"author": [
+		"DaveH"
+	],
+	"descriptionmsg": "sfwiki-darkvector-skin-desc",
+	"namemsg": "skinname-sfwikidarkvector",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ConfigRegistry": {
+		"sfwikidarkvector": "GlobalVarConfig::newInstance"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.38.0"
+	},
+	"ValidSkinNames": {
+		"sfwikidarkvector": "SFWikiDarkVector"
+	},
+	"MessagesDirs": {
+		"SFWikiDarkVector": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinSFWikiDarkVector": "SkinSFWikiDarkVector.php",
+		"SFWikiDarkVectorTemplate": "SFWikiDarkVectorTemplate.php"
+	},
+	"ResourceModules": {
+		"skins.sfwikidarkvector.styles": {
+			"position": "top",
+			"styles": {
+				"sfwikiscreen.css": {
+					"media": "screen"
+				},
+				"sfwikiscreen-hd.css": {
+					"media": "screen and (min-width: 982px)"
+				}
+			}
+		},
+		"skins.sfwikidarkvector.styles.responsive": {
+			"position": "top",
+			"styles": {
+				"sfwikiresponsive.css": {
+					"media": "screen and (max-width: 768px)"
+				}
+			}
+		},
+		"skins.sfwikidarkvector.js": {
+			"scripts": [
+				"sfwikidarkvector.js"
+			],
+			"position": "top",
+			"dependencies": [
+				"skins.darkvector.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "SFWikiDarkVector"
+	},
+	"manifest_version": 1
+}

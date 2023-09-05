@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"DaveH"
+		]
+	},
+	"skinname-sfwikidarkvector": "SFWikiDarkVector",
+	"sfwikidarkvector-skin-desc": "Starfield Wiki Vector skin with dark interface",
+	"sfwikidarkvector.css": "/* CSS placed here will affect users of the SFWikiDarkVector skin */",
+	"sfwikidarkvector.js": "/* Any JavaScript here will be loaded for users using the SFWikiDarkVector skin */",
+	"sfwikidarkvector-action-addsection": "Add topic",
+	"sfwikidarkvector-action-delete": "Delete",
+	"sfwikidarkvector-action-move": "Move",
+	"sfwikidarkvector-action-protect": "Protect",
+	"sfwikidarkvector-action-undelete": "Undelete",
+	"sfwikidarkvector-action-unprotect": "Change protection",
+	"sfwikidarkvector-view-create": "Create",
+	"sfwikidarkvector-view-edit": "Edit",
+	"sfwikidarkvector-view-history": "View history",
+	"sfwikidarkvector-view-view": "Read",
+	"sfwikidarkvector-view-viewsource": "View source",
+	"sfwikidarkvector-more-actions": "More"
+}
